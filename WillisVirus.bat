@@ -34,7 +34,7 @@ goto mainscr
 cls
 mode con lines=33 cols=120 >nul
 echo.
-echo Good Job you are a very cultured person, and I can tell you have a strong relationship with you're father figure.
+echo Good Job you are a very cultured person, and I can tell you have a strong and stable relationship with you're father figure.
 timeout 6 >nul
 start %appdata%\Willishot\willishot1.png
 set "file=%temp%\fnaf.mp3"
@@ -85,6 +85,9 @@ ping localhost -n 2 >nul
 start /min %temp%\creepy2.vbs
 timeout 3 >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, ';)', 'ㅤ', [System.Windows.Forms.ToolTipIcon]::None)}"
+
+
+
 exit
 
 
