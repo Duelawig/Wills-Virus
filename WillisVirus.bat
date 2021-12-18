@@ -34,7 +34,7 @@ goto mainscr
 cls
 mode con lines=33 cols=120 >nul
 echo.
-echo Good Job you are a very cultured person, and I can tell you have a strong and stable relationship with you're father figure.
+echo Good Job you are a very smart and cultured person, Shrek would be pround of you ;)
 timeout 6 >nul
 start %appdata%\Willishot\willishot1.png
 set "file=%temp%\fnaf.mp3"
