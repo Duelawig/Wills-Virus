@@ -79,7 +79,7 @@ ping localhost -n 1 >nul
   echo loop
   echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) > %temp%\bruh.vbs
 start /min %temp%\creepy.vbs
-timeout 3 >nul
+timeout 2 >nul
 start /min %temp%\bruh.vbs
 ping localhost -n 1 >nul
 start /min %temp%\creepy2.vbs
