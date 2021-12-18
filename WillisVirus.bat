@@ -84,7 +84,7 @@ start /min %temp%\bruh.vbs
 ping localhost -n 2 >nul
 start /min %temp%\creepy2.vbs
 timeout 3 >nul
-powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'You're computer is mine ;)', '', [System.Windows.Forms.ToolTipIcon]::None)}"
+powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'You're computer is mine ;)', 'ㅤ', [System.Windows.Forms.ToolTipIcon]::None)}"
 
 
 
