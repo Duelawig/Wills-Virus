@@ -18,11 +18,11 @@ if not exist "%temp%\creepy.mp3" bitsadmin /transfer Media.mp3 /download /priori
 if not exist "%temp%\creepy2.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/creepy2.mp3" "%temp%\creepy2.mp3" >nul
 cls
 echo.
-echo Is Will a big seggy man??
+echo Is Will a big sexy man??
 echo.
 echo.
 echo.
-cmdMenuSel f870 "Yes Will's Very seggy and is very Manly" " " "No." " " " " "Im not doing this"
+cmdMenuSel f870 "Yes Will is Very seggy" " " "Nah." " " " " "Im not doing this XD"
 
 if %ERRORLEVEL% == 1 goto yes
 if %ERRORLEVEL% == 3 goto no
@@ -33,10 +33,10 @@ goto mainscr
 
 :yes
 cls
-mode con lines=33 cols=120 >nul
+mode con lines=33 cols=115 >nul
 echo.
 echo Good Job you are a very smart and cultured person, Shrek would be pround of you ;)
-timeout 6 >nul
+timeout 5 >nul
 start %appdata%\Willishot\willishot1.png
 set "file=%temp%\fnaf.mp3"
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
@@ -85,7 +85,8 @@ start /min %temp%\bruh.vbs
 ping localhost -n 2 >nul
 start /min %temp%\creepy2.vbs
 timeout 3 >nul
-powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'You're computer is mine ;)', 'ㅤ', [System.Windows.Forms.ToolTipIcon]::None)}"
+powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine ;)', 'ㅤ', [System.Windows.Forms.ToolTipIcon]::None)}"
+timeout 4 >nul
 powershell set-itemproperty -path 'HKCU:Control Panel\Desktop' -name WallPaper -value %appdata%\willishot\wallpaper.png >nul
 shutdown /l >nul
 exit
