@@ -14,7 +14,8 @@ echo.
 echo Is Will a big seggy man??
 echo.
 echo.
-cmdMenuSel f870 "Yes Will's Very seggy and is very Manly" " " "Nahhhhh jit trippin" " " "Im not doing this" 
+echo.
+cmdMenuSel f870 "Yes Will's Very seggy and is very Manly" " " "No." " " " " "Im not doing this" 
 
 if %ERRORLEVEL% == 1 goto yes
 if %ERRORLEVEL% == 2 goto no
@@ -26,7 +27,8 @@ goto mainscr
 :yes
 cls
 echo.
-echo Good Job you are a very cultured person, and i can tell you have a strong and stable relationship with you're father figure.
+echo Good Job you are a very cultured person, and I can tell you have a strong and stable relationship with you're father figure.
+pause
 
 
 
@@ -35,7 +37,7 @@ echo Good Job you are a very cultured person, and i can tell you have a strong a
 :no
 cls 
 echo.
-echo I can tell you never had a strong and stable relationship with you're father figure LOL.
+echo Bruh you're mean, I can tell you never had a strong and stable relationship with you're father figure.
 
 
 
@@ -50,8 +52,9 @@ set "file=%temp%\media.mp3"
   echo loop
   echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) >%temp%\sound.vbs
 start /min %temp%\sound.vbs
-mode 45,5
-echo Made by [40;36mpy#0507[40;37m
 timeout 2 >nul
+echo Exiting ig smh....
 cls
-del "%temp%\sound.vbs" /f /q /s >nulp
+del "%temp%\sound.vbs" /f /q /s >nul
+timeout 3 >nul
+exit
