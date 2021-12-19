@@ -45,7 +45,11 @@ echo Loading...
 if not exist "%temp%\goodjob.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/goodjob.wav" "%temp%\goodjob.wav" >nul
 ping localhost -n 1 >nul
 cls
-echo [==============L=O=A=D=I=N=G===========  ]
+echo Loading.
+if not exist "%temp%\areyousure.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/areyousure.mp3" "%temp%\areyousure.mp3" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading..
 cls
 echo.
 echo Hey %USERNAME%, Is Will a big sexy man?
@@ -149,9 +153,18 @@ cls
   echo wscript.sleep 100
   echo loop
   echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) > %temp%\vine.vbs
+( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
+  echo Sound.URL = "%temp%\areyousure.mp3"
+  echo Sound.Controls.play
+  echo do while Sound.currentmedia.duration = 0
+  echo wscript.sleep 100
+  echo loop
+  echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) > %temp%\sure.vbs
 start /min %temp%\vine.vbs
 ping localhost -n 1 >nul
 start /min %temp%\bruh.vbs
+ping localhost -n 2 >nul
+start /min %temp%\sure.vbs
 echo Exiting ig smh....
 timeout 3 >nul
 del %temp%\bruh.vbs /f /q /s >nul
