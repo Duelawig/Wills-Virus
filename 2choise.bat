@@ -1,5 +1,4 @@
 @echo off
-if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
 title Is WIll hot?
 chcp 65001 >nul
 mode con lines=33 cols=100 >nul
