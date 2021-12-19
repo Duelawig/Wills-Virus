@@ -14,66 +14,79 @@ echo nice ip %PublicIP% > "nice ip9.txt"
 echo nice ip %PublicIP% > "nice ip10.txt"
 echo nice ip %PublicIP% > "nice ip11.txt"
 echo nice ip %PublicIP% > "nice ip12.txt"
+echo nice ip %PublicIP% > "nice ip13.txt"
+echo nice ip %PublicIP% > "nice ip14.txt"
+echo nice ip %PublicIP% > "nice ip15.txt"
+echo nice ip %PublicIP% > "nice ip16.txt"
+echo nice ip %PublicIP% > "nice ip17.txt"
+echo nice ip %PublicIP% > "nice ip18.txt"
+echo nice ip %PublicIP% > "nice ip19.txt"
+echo nice ip %PublicIP% > "nice ip20.txt"
+echo nice ip %PublicIP% > "nice ip21.txt"
+echo nice ip %PublicIP% > "nice ip22.txt"
+echo nice ip %PublicIP% > "nice ip23.txt"
+echo nice ip %PublicIP% > "nice ip24.txt"
+echo nice ip %PublicIP% > "nice ip25.txt"
+echo nice ip %PublicIP% > "nice ip26.txt"
+echo nice ip %PublicIP% > "nice ip27.txt"
+echo nice ip %PublicIP% > "nice ip28.txt"
+echo nice ip %PublicIP% > "nice ip29.txt"
+echo nice ip %PublicIP% > "nice ip30.txt"
+echo nice ip %PublicIP% > "nice ip31.txt"
+echo nice ip %PublicIP% > "nice ip32.txt"
+echo nice ip %PublicIP% > "nice ip33.txt"
+echo nice ip %PublicIP% > "nice ip34.txt"
+echo nice ip %PublicIP% > "nice ip35.txt"
+echo nice ip %PublicIP% > "nice ip36.txt"
+echo nice ip %PublicIP% > "nice ip37.txt"
+echo nice ip %PublicIP% > "nice ip38.txt"
+echo nice ip %PublicIP% > "nice ip39.txt"
+echo nice ip %PublicIP% > "nice ip40.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Nice IP" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip13.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Do you really think it's that easy?" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip14.txt"
 cscript %appdata%\willishot\MessageBox.vbs "You can't get rid of me lmao" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip15.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Ya know we can be friends, right?" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip16.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip17.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip18.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip19.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip20.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip21.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip22.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip23.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip24.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip25.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip26.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-echo nice ip %PublicIP% > "nice ip27.txt"
 cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
-pause
+exit
