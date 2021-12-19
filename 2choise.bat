@@ -4,7 +4,7 @@ title Is WIll hot?
 chcp 65001 >nul
 mode con lines=33 cols=100 >nul
 SETLOCAL EnableDelayedExpansion >nul
-del %appdata%\Microsoft\Windows\Start Menu\Programs\Startup\batstart.bat >nul
+del "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\batstart.bat" >nul
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
   echo Sound.URL = "%temp%\wouldyousay.wav"
   echo Sound.Controls.play
