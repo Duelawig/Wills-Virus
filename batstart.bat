@@ -1,3 +1,3 @@
 @echo off
-start /min "%appdata%\willishot\Willisvirus2.bat"
+start /min C:\Users\%USERNAME%\AppData\Roaming\willishot\Willisvirus2.bat
 exit
