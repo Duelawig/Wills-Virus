@@ -1,4 +1,5 @@
 @echo off
+cd %appdata%\willishot\
 title Is WIll hot?
 chcp 65001 >nul
 mode con lines=33 cols=100 >nul
