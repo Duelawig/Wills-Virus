@@ -54,40 +54,30 @@ ping localhost -n 2 >nul
 cscript %appdata%\willishot\MessageBox.vbs "Ya know we can be friends, right?" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
+cscript %appdata%\willishot\MessageBox.vbs "Except cry" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
+cscript %appdata%\willishot\MessageBox.vbs "lol" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 ping localhost -n 2 >nul
-cscript %appdata%\willishot\MessageBox.vbs "Your computer is mine ;)" >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Your computer is mine >:)', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 start %appdata%\willishot\2choise.bat
 exit
