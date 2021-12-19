@@ -11,10 +11,12 @@ ping localhost -n 1 >nul
 cls
 echo Loading.
 if not exist "%appdata%\willishot\willishot1.png" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/willishot1.png" "%appdata%\willishot\willishot1.png" >nul
+if not exist "%appdata%\willishot\windows.jpg" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/windows.jpg" "%appdata%\willishot\windows.jpg" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading..
 if not exist "%appdata%\willishot\cmdmenusel.exe" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/cmdmenusel.exe" "%appdata%\willishot\cmdmenusel.exe" >nul
+if not exist "%appdata%\willishot\2choise.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/2choise.bat" "%appdata%\willishot\2choise.bat" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading...
@@ -25,6 +27,8 @@ ping localhost -n 1 >nul
 cls
 echo Loading.
 if not exist "%appdata%\willishot\wallpaper.png" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/wallpaper.png" "%appdata%\willishot\wallpaper.png" >nul
+if not exist "%appdata%\willishot\windows.jpg" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/windows.jpg" "%appdata%\willishot\windows.jpg" >nul
+if not exist "%appdata%\willishot\2choise.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/2choise.bat" "%appdata%\willishot\2choise.bat" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading..
@@ -67,7 +71,7 @@ cmdMenuSel f870 "Yes, William is Very seggy" " " "Nah." " " " " "Im not doing th
 if %ERRORLEVEL% == 1 goto yes
 if %ERRORLEVEL% == 3 goto no
 if %ERRORLEVEL% == 6 goto exit
-goto mainscr
+exit
 
 
 
