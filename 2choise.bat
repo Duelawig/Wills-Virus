@@ -37,6 +37,7 @@ cls
   echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) > %temp%\thanks.vbs
 start /min %temp%\thanks.vbs
 timeout 5 >nul
+cd C:\Users\%username%\Desktop\
 del "nice ip0.txt"
 del "nice ip1.txt"
 del "nice ip2.txt"
