@@ -10,7 +10,7 @@ cd %appdata%\willishot\
 ping localhost -n 1 >nu
 cls
 echo Loading.
-if not exist "%appdata%\willishot\willishot1.png" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/Duelawig/Will-s-Virus/raw/main/willishot1.png" "%appdata%\willishot\willishot1.png" >nu
+if not exist "%appdata%\willishot\willishot1.png" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/Duelawig/Will-s-Virus/raw/main/willishot1.png" "%appdata%\willishot\willishot1.png" >nul
 cls
 echo Loading..
 if not exist "%appdata%\willishot\windows.jpg" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/Duelawig/Will-s-Virus/raw/main/windows.jpg" "%appdata%\willishot\windows.jpg" >nul
