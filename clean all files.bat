@@ -4,9 +4,12 @@ del %appdata%\willishot\willishot1.png
 del %appdata%\willishot\windows.jpg
 del %appdata%\willishot\cmdmenusel.exe
 del %appdata%\willishot\2choise.bat
+del %appdata%\willishot\notif.bat
+del %appdata%\willishot\batstart.bat
 del %appdata%\willishot\Messagebox.vbs
 del "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\batstart.bat"
 del %appdata%\willishot\Willisvirus2.bat
+del %appdata%\willishot\gdi.bat
 del %appdata%\willishot\wallpaper.png
 del %appdata%\willishot\windows.jpg
 del %appdata%\willishot\2choise.bat
