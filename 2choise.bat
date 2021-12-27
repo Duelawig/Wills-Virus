@@ -1,4 +1,6 @@
 @echo off
+del "%appdata%\willishot\Willisvirus2.bat" >nul
+del "%appdata%\willishot\gdi.bat" >nul
 cd %appdata%\willishot\
 title Another Chance?
 chcp 65001 >nul
