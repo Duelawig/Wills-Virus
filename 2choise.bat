@@ -1,6 +1,6 @@
 @echo off
 cd %appdata%\willishot\
-title Is WIll hot?
+title Another Chance?
 chcp 65001 >nul
 mode con lines=33 cols=100 >nul
 SETLOCAL EnableDelayedExpansion >nul
@@ -128,7 +128,7 @@ if %ERRORLEVEL% == 3 goto no2
 :no2
 cls
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
-  echo Sound.URL = "%temp%\again.wav"
+  echo Sound.URL = "%temp%\tryagain.wav"
   echo Sound.Controls.play
   echo do while Sound.currentmedia.duration = 0
   echo wscript.sleep 100
