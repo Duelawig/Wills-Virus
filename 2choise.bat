@@ -39,7 +39,7 @@ cls
   echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) > %temp%\thanks.vbs
 start /min %temp%\thanks.vbs
 timeout 5 >nul
-start /min "%appdata%\willishot\clean all files2.bat"
+start /min %appdata%\willishot\cleanallfiles2.bat
 exit
 
 

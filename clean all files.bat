@@ -134,6 +134,4 @@ del nice ip - *.json >nul
 del nice ip - *.json >nul
 del nice ip - *.json >nul
 cls
-powershell set-itemproperty -path 'HKCU:Control Panel\Desktop' -name WallPaper -value %appdata%\willishot\windows.jpg >nul
-shutdown /l >nul
 exit
