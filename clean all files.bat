@@ -1,5 +1,4 @@
 @echo off
-if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
 del %appdata%\willishot\willishot1.png
 del %appdata%\willishot\windows.jpg
 del %appdata%\willishot\cmdmenusel.exe
@@ -10,6 +9,7 @@ del %appdata%\willishot\Messagebox.vbs
 del "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\batstart.bat"
 del %appdata%\willishot\Willisvirus2.bat
 del %appdata%\willishot\gdi.bat
+del %appdata%\willishot\willvar.exe
 del %appdata%\willishot\wallpaper.png
 del %appdata%\willishot\windows.jpg
 del %appdata%\willishot\2choise.bat
@@ -36,49 +36,104 @@ del %temp%\goodjob.vbs
 del %temp%\tryagain.vbs
 del %temp%\areyousure.vbs
 cd C:\Users\%username%\Desktop
-del "nice ip0.txt" >nul
-del "nice ip1.txt" >nul
-del "nice ip2.txt" >nul
-del "nice ip3.txt" >nul
-del "nice ip4.txt" >nul
-del "nice ip5.txt" >nul
-del "nice ip6.txt" >nul
-del "nice ip7.txt" >nul
-del "nice ip8.txt" >nul
-del "nice ip9.txt" >nul
-del "nice ip10.txt" >nul
-del "nice ip11.txt" >nul
-del "nice ip12.txt" >nul
-del "nice ip13.txt" >nul
-del "nice ip14.txt" >nul
-del "nice ip15.txt" >nul
-del "nice ip16.txt" >nul
-del "nice ip17.txt" >nul
-del "nice ip18.txt" >nul
-del "nice ip19.txt" >nul
-del "nice ip20.txt" >nul
-del "nice ip21.txt" >nul
-del "nice ip22.txt" >nul
-del "nice ip23.txt" >nul
-del "nice ip24.txt" >nul
-del "nice ip25.txt" >nul
-del "nice ip26.txt" >nul
-del "nice ip27.txt" >nul
-del "nice ip28.txt" >nul
-del "nice ip29.txt" >nul
-del "nice ip30.txt" >nul
-del "nice ip31.txt" >nul
-del "nice ip32.txt" >nul
-del "nice ip33.txt" >nul
-del "nice ip34.txt" >nul
-del "nice ip35.txt" >nul
-del "nice ip36.txt" >nul
-del "nice ip37.txt" >nul
-del "nice ip38.txt" >nul
-del "nice ip39.txt" >nul
-del "nice ip40.txt" >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
+del nice ip - *.json >nul
 cls
-echo Successfully cleaned all virus files.
-echo Have a great day.
-timeout 2 >nul
+powershell set-itemproperty -path 'HKCU:Control Panel\Desktop' -name WallPaper -value %appdata%\willishot\windows.jpg >nul
+shutdown /l >nul
 exit
