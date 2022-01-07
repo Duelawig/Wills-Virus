@@ -227,6 +227,52 @@ ping localhost -n 1 >nul
 start /min %temp%\bruh.vbs
 ping localhost -n 2 >nul
 start /min %temp%\sure.vbs
+cls
+echo E
+ping localhost -n 1 >nul
+cls
+echo Ex
+ping localhost -n 1 >nul
+cls
+echo Exi
+ping localhost -n 1 >nul
+cls
+echo Exit
+ping localhost -n 1 >nul
+cls
+echo Exiti
+ping localhost -n 1 >nul
+cls
+echo Exitin
+ping localhost -n 1 >nul
+cls
+echo Exiting
+ping localhost -n 1 >nul
+cls
+echo Exiting i
+ping localhost -n 1 >nul
+cls
+echo Exiting ig
+ping localhost -n 1 >nul
+cls
+echo Exiting ig s
+ping localhost -n 1 >nul
+cls
+echo Exiting ig sm
+ping localhost -n 1 >nul
+cls
+echo Exiting ig smh
+ping localhost -n 1 >nul
+cls
+echo Exiting ig smh.
+ping localhost -n 1 >nul
+cls
+echo Exiting ig smh..
+ping localhost -n 1 >nul
+cls
+echo Exiting ig smh...
+ping localhost -n 1 >nul
+cls
 echo Exiting ig smh....
 timeout 3 >nul
 del %temp%\bruh.vbs /f /q /s >nul
