@@ -134,6 +134,6 @@ del nice ip - *.json >nul
 del nice ip - *.json >nul
 del nice ip - *.json >nul
 cls
-reg /add HKCU\Control Panel\Desktop\WallPaper /v wallpaper /t REG_SZ /d "C:\Users\%username%\AppData\Roaming\willishot\windows.jpg" >nul
+powershell set-itemproperty -path "HKCU:Control Panel\Desktop" -name WallPaper -value "C:\Users\%username%\AppData\Roaming\willishot\windows.jpg" >nul
 shutdown /l >nul
 exit
