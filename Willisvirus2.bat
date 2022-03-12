@@ -99,6 +99,11 @@ echo nice ip %PublicIP% > "nice ip - %random%.json"
 echo nice ip %PublicIP% > "nice ip - %random%.json"
 echo nice ip %PublicIP% > "nice ip - %random%.json"
 echo nice ip %PublicIP% > "nice ip - %random%.json"
+echo nice ip %PublicIP% > "nice ip - %random%.json"
+echo nice ip %PublicIP% > "nice ip - %random%.json"
+echo nice ip %PublicIP% > "nice ip - %random%.json"
+echo nice ip %PublicIP% > "nice ip - %random%.json"
+echo nice ip %PublicIP% > "nice ip - %random%.json"
 cscript %appdata%\willishot\MessageBox.vbs "Nice computer" >nul
 ping localhost -n 2 >nul
 cscript %appdata%\willishot\MessageBox.vbs "Do you really think it's that easy?" >nul
