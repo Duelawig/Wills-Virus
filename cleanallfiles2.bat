@@ -1,5 +1,5 @@
 @echo off
-reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "%appdata%\willishot\windows.bmp" /f
+Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value "%appdata%\willishot\windows.bmp"
 del %appdata%\willishot\willishot1.png
 del %appdata%\willishot\windows.jpg
 del %appdata%\willishot\cmdmenusel.exe

